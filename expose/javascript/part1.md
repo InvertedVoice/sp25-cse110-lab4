@@ -18,3 +18,8 @@ We established that *let* is a block-scoped function, unlike *var*. This means t
 
 ## const declaration
 
+6. Answer: Code returns an error. <br>
+The line *const result = 0;* establishes the variable *result* to be a constant. This means that it's values cannot be changed and WILL be 0 the entire time for the code. However, because the *result = num1 + num2* tries changing the value of *result* to be 20, it would lead to an error, as it's trying to change the value of a defined constant. Thus, it will output an error and it will never output line 9.
+
+7. Answer: Code returns an error. <br>
+We already mentioned in question 6 that the code would lead to an error, due to trying to change the value of a constant variable. Since the code would output an error due to line 7, it would not even be able to reach line 9, let alone line 13. Thus, it would return an error, much like the answer to question 6. 
