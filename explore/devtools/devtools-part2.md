@@ -1,1 +1,1 @@
-
+1. The issue is that num1 and num2 are retreived as strings instead of numbers, which means that when you add them together using num1 + num2, instead of getting something like 3 + 4 = 7, you get "3" + "4" = "34".
