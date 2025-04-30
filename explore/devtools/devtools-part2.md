@@ -1,1 +1,3 @@
-1. The issue is that num1 and num2 are retreived as strings instead of numbers, which means that when you add them together using num1 + num2, instead of getting something like 3 + 4 = 7, you get "3" + "4" = "34".
+1. The issue is that num1 and num2 are retreived as strings instead of numbers, which means that when you add them together using num1 + num2, instead of getting something like 3 + 4 = 7, you get "3" + "4" = "34". <br>
+
+2. Inside the function calculateSum, for the line *let result*, instead of writing it as *let result = num1 + num2;*, I wrote it as *let result = parseFloat(num1) + parseFloat(num2);*. By using parseFloat, we ensure that the inputted values are converted into *decimal numbers*, in order for the line of code to add them as numbers instead of strings (I used parseFloat so that you are also able to use decimal numbers). Screenshots is available in the expand folder. <br>
