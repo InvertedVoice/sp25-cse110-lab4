@@ -74,5 +74,8 @@ At first, the *modifyArray* creates and initializes a new array as *newArr= []*.
 
 ## setInteraval(), setTimeout(), clearTimeout()
 
-18. Answer:
-19. Answer:
+18. Answer: inside the part2-question18.js file. <br>
+
+19. Answer: 1 4 3 2 <br>
+Value 1 will be printed first, followed by 4, and then 3 (first in the delay queue by 0ms), and then 2 (delayed by 1000ms).
+    
