@@ -72,7 +72,7 @@ E. student.courseLoad[0] <br>
 At first, the *modifyArray* creates and initializes a new array as *newArr= []*. Then, the *for* loop will go through each value inside the existing array, and uses the *doSomething* function to double the value of the array[i] and insert it into the newArr. (Ex. at i = 0, array[0] = 1, doSomething(1) gives us 2.) this goes on until the *i* values reaches the same length as the length of the array. Once the loop is done, it returns *newArr*, giving us [2, 4, 6].
 
 
-## setInteraval(), setTimeout(), clearTimeout()
+## setInterval(), setTimeout(), clearTimeout()
 
 18. Answer: inside the part2-question18.js file. <br>
 
