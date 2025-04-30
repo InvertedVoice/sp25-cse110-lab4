@@ -38,11 +38,11 @@ In this case, discounted is a const *array*, which means while it cannot be chan
 ## Data Types
 
 12. Answers:
-A. student.name
-B. student['Grad Year']
-C. student.greeting()
-D. student['Favorite Teacher'].name
-E. student.courseLoad[0]
+A. student.name <br>
+B. student['Grad Year'] <br>
+C. student.greeting() <br>
+D. student['Favorite Teacher'].name <br>
+E. student.courseLoad[0] <br>
 
 ## Basic Operators and Type Conversion
 
@@ -55,15 +55,24 @@ E. student.courseLoad[0]
     F. 0, since the plus sign converts them both into ints, false becomes 0 and null becomes 0, giving us a total of 0. <br>
     G. '3undefined', since '3' is a string, it turns 'undefined' into a string as well, giving us '3undefined'.
     H. NaN, the minus sign converts '3' into a number 3, however, because undefined will be turned into a NaN, we will get a     result of NaN. <br>
-14. 
-15. Answer:
-16. Answer:
-17. Answer:
+14. A. True, since we are comparing a number with a string, the string '3' turns into a number, which is more than 2.<br>
+    B. False, since both are strings, we compare them by CHARACTERS, and since the first left character is 2 and the first       right character is 1, it makes '2' bigger than '12' as a result, making it false.<br>
+    C. True, the string '2' would be converted into an int, making it equal to a 2.<br>
+    D. False, since we are using a strict comparison using ===, there is no conversion happening.<br>
+    E. False, we convert true to int value 1, which is not equal to 2. <br>
+    F. True, we would turn 2 into a boolean which would be equal to true, which would make the comparison true.<br>
+15. Answer:  === gives us STRICT equality, which means that it does not do any typecasting, which means that comparing two different types of variables will automatically give us a false. Meanwhile, == performs typecasting if it tries comparing two different types of variables, and then compares them. <br>
+
+## Loops
+
+16. Answer: inside the part2-question16.js file. <br>
 
 ## Functions
-18. Answer:
+17. Answer: [2, 4, 6] <br>
+At first, the *modifyArray* creates and initializes a new array as *newArr= []*. Then, the *for* loop will go through each value inside the existing array, and uses the *doSomething* function to double the value of the array[i] and insert it into the newArr. (Ex. at i = 0, array[0] = 1, doSomething(1) gives us 2.) this goes on until the *i* values reaches the same length as the length of the array. Once the loop is done, it returns *newArr*, giving us [2, 4, 6].
+
 
 ## setInteraval(), setTimeout(), clearTimeout()
 
+18. Answer:
 19. Answer:
-20. Answer:
